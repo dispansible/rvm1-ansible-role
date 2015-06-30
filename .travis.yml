@@ -42,7 +42,7 @@ script:
     && (echo 'Multiple rubies test: pass' && exit 0)
     || (echo 'Multiple rubies test: fail' && exit 1)
   - >
-    ~/.rvm/gems/ruby-2.1.2@global/bin/bundle -v
+    ~/.rvm/wrappers/ruby-2.1.2/bundle -v
     | grep -q 'Bundler version'
     && (echo 'Bundler setup test: pass' && exit 0)
     || (echo 'Bundler setup test: fail' && exit 1)
