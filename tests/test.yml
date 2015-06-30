@@ -12,4 +12,4 @@
     rvm1_install_flags: '--auto-dotfiles --user-install'
 
   roles:
-    - rvm1-ansible
+    - rvm1-ansible-role
